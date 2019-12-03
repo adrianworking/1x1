@@ -1,4 +1,4 @@
-# - copyright (c) Adrian Hom 2019
+# - copyright (c) Adrian H. 2019
 #  _    _                                          _      
 # | |  | |                                        | |     
 # | |__| | ___  _ __ ___   ___ _ __ ___   __ _  __| | ___ 
@@ -58,39 +58,39 @@ def quizfrage(frage, loesung):
  
 punkte = 0
  
-frage = "Was ist 13 mal 4?   "
-loesung = "52"
+frage = "- Frage -   "
+loesung = " Antwort "
  
 quizfrage(frage, loesung)
  
-frage = "Was ist 15 mal 5     "
-loesung = "75"
+frage = "- Frage -  "
+loesung = " Antwort "
  
 quizfrage(frage, loesung)
  
-frage = "Was ist 6 mal 8     "
-loesung = "48"
+frage = "- Frage - "
+loesung = " Antwort "
  
-quizfrage(frage, loesung)
-
-frage = "Was ist 5 mal 5     "
-loesung = "25"
-
 quizfrage(frage, loesung)
 
-frage = "Was ist 8 mal 3     "
-loesung = "24"
+frage = "- Frage -"
+loesung = " Antwort "
+
+quizfrage(frage, loesung)
+
+frage = " - Frage -"
+loesung = " Antwort "
 
 quizfrage(frage, loesung)
 
 if punkte == 5:
     print (" ")
-    print("Geil alda!")
+    print("Gut")
 elif punkte == 2 or punkte == 1:
     print (" ")
-    print("Ich würd nochmal Mathe lernen...")
+    print("Ich würd nochmal lernen")
 else:
     print (" ")
-    print("Du musst mal wieder Mathe lernen")
+    print("Du musst mal wieder lerne")
  
 print("Du hast", punkte, "Punkte erreicht")
